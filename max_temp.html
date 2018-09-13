@@ -4,7 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Bootstrap Visualization Dashboard</title>
+  <script
+ src="https://code.jquery.com/jquery-3.2.1.min.js"
+ integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -28,13 +34,13 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="max_temp.html">Max Temperature</a></li>
-              <li><a href="humidty.html">Humidity</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
               <li><a href="cloudiness.html">Cloudiness</a></li>
               <li><a href="wind_speed.html">Wind Speed</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a href="comparison.html">Comparison</a></li>
-          <li class="nav-item"><a href="data.html">Data</a></li>
+          <li><a href="comparison.html">Comparison</a></li>
+          <li><a href="data.html">Data</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -59,22 +65,22 @@
           <h3 class="panel-title">Visualizations</h3>
         </div>
         <div class="panel-body">
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
             <a href="max_temp.html">
               <img class="img-responsive" src="Fig1.png" alt="Max Temp" style="width:100%">
             </a>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
             <a href="humidity.html">
                <img class="img-responsive" src="Fig2.png" alt="Humidity" style="width:100%">
             </a>
           </div>              
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
             <a href="cloudiness.html">
               <img class="img-responsive" src="Fig3.png" alt="Cloudiness" style="width:100%">
             </a>
           </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+          <div class="col-xs-3 col-sm-3 col-md-6 col-lg-6">
             <a href="wind_speed.html">
               <img class="img-responsive" src="Fig4.png" alt="Wind Speed" style="width:100%">
             </a>
